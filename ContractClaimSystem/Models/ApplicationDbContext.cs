@@ -9,7 +9,7 @@ namespace ContractClaimSystem.Models
             : base(options)
         {
         }
-
+        //Leave this here!
         public DbSet<ClaimSubmission> Claims { get; set; }
     }
 }
