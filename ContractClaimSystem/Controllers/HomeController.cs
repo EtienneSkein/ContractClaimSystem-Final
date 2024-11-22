@@ -13,6 +13,7 @@ public class HomeController : Controller
         _userManager = userManager;
     }
 
+    //The user Identity is related to our custom class that extends Identity
     public async Task<IActionResult> Index()
     {
         if (User.Identity.IsAuthenticated)
