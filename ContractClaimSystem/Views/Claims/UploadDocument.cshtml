@@ -1,0 +1,21 @@
+﻿@model IEnumerable<ContractClaimSystem.Models.ClaimSubmission>
+
+<h2>Upload Documents for Pending Claims</h2>
+
+@foreach (var claim in Model)
+{
+    <h4>Claim ID: @claim.Id | Hours Worked: @claim.HoursWorked | Status: @claim.Status</h4>
+
+    <form asp-action="UploadAdditionalFiles" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="claimId" value="@claim.Id" />
+
+        <div class="form-group">
+            <label for="additionalFiles">Upload Additional Files:</label>
+            <input type="file" name="additionalFiles" multiple class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload Files</button>
+    </form>
+
+    <hr />
+}

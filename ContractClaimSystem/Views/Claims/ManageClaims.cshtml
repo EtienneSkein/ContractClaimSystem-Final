@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ContractClaimSystem.Models.ClaimSubmission>
+
+<h2>Manage Claims</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Lecturer Name</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Lecturer?.FullName</td>
+                <td>@claim.HoursWorked.ToString("N2")</td>
+                <td>@($"R{claim.HourlyRate:N2}")</td>
+                <td>@($"R{claim.FinalPayment:N2}")</td>
+                <td>@claim.Status</td>
+                <td>
+                    <form asp-action="ApproveClaim" method="post" style="display:inline-block;">
+                        <input type="hidden" name="claimId" value="@claim.Id" />
+                        <button type="submit" class="btn btn-success">Approve</button>
+                    </form>
+                    <form asp-action="RejectClaim" method="post" style="display:inline-block;">
+                        <input type="hidden" name="claimId" value="@claim.Id" />
+                        <button type="submit" class="btn btn-danger">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

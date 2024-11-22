@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Lecturer List";
+}
+
+<h2>Lecturer List</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lecturer in Model)
+        {
+            <tr>
+                <td>@lecturer.FullName</td>
+                <td>@lecturer.Email</td>
+                <td>
+                    <a asp-controller="HR" asp-action="EditLecturer" asp-route-id="@lecturer.Id" class="btn btn-primary btn-sm">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

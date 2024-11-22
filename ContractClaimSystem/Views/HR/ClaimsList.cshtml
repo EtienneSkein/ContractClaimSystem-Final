@@ -1,0 +1,28 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer Name</th>
+            <th>Status</th>
+            <th>Date Submitted</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Id</td>
+                <td>@claim.Lecturer.FullName</td>
+                <td>@claim.Status</td>
+                <td>@claim.ClaimDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <form asp-controller="HR" asp-action="GenerateReport" method="post">
+                        <input type="hidden" name="claimId" value="@claim.Id" />
+                        <button type="submit" class="btn btn-primary">Generate Report</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

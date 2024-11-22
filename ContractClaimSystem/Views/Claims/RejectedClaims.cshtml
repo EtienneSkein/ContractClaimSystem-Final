@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ContractClaimSystem.Models.ClaimSubmission>
+
+<h2>Rejected Claims</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Lecturer Name</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Amount</th>
+            <th>Claim Date</th>
+            <th>Additional Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Lecturer?.FullName</td>
+                <td>@claim.HoursWorked.ToString("N2")</td>
+                <td>@($"R{claim.HourlyRate:N2}")</td>
+                <td>@($"R{claim.FinalPayment:N2}")</td>
+                <td>@claim.ClaimDate.ToString("dd/MM/yyyy")</td>
+                <td>@claim.AdditionalNotes</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
