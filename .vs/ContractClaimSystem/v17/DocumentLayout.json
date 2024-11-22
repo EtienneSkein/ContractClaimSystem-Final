@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Etienne\\Old\\ContractClaimSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BA726B3-4945-45A5-8159-2334C31F6F64}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\etienne\\old\\contractclaimsystem\\contractclaimsystem\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA726B3-4945-45A5-8159-2334C31F6F64}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BA726B3-4945-45A5-8159-2334C31F6F64}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\etienne\\old\\contractclaimsystem\\contractclaimsystem\\views\\claims\\approvedclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BA726B3-4945-45A5-8159-2334C31F6F64}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claims\\approvedclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -87,6 +91,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Models\\Lecturer.cs",
+              "ToolTip": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Models\\Lecturer.cs",
+              "RelativeToolTip": "ContractClaimSystem\\Models\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:53:25.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApprovedClaims.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claims\\ApprovedClaims.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claims\\ApprovedClaims.cshtml",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Models\\ApplicationDbContext.cs",
@@ -107,12 +124,11 @@
               "RelativeToolTip": "ContractClaimSystem\\Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T13:49:30.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T13:49:30.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UploadDocument.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claims\\UploadDocument.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claims\\UploadDocument.cshtml",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClaimsController.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\ClaimsController.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Controllers\\ClaimsController.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HRController.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\HRController.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Controllers\\HRController.cs",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ClaimSubmission.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Models\\ClaimSubmission.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Models\\ClaimSubmission.cs",
@@ -160,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Program.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Program.cs",
@@ -172,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
@@ -184,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Controllers\\AccountController.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Account\\Login.cshtml",
@@ -208,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClaimsList.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\HR\\ClaimsList.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\HR\\ClaimsList.cshtml",
@@ -220,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Controllers\\HomeController.cs",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LecturerList.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\HR\\LecturerList.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\HR\\LecturerList.cshtml",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EditLecturer.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\HR\\EditLecturer.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\HR\\EditLecturer.cshtml",
@@ -256,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Account\\Register.cshtml",
@@ -268,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20241122102555_InitialCreate.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Migrations\\20241122102555_InitialCreate.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Migrations\\20241122102555_InitialCreate.cs",
@@ -280,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "20241122102116_MakeSupportingDocumentOptional.cs",
               "DocumentMoniker": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\Migrations\\20241122102116_MakeSupportingDocumentOptional.cs",
               "RelativeDocumentMoniker": "ContractClaimSystem\\Migrations\\20241122102116_MakeSupportingDocumentOptional.cs",

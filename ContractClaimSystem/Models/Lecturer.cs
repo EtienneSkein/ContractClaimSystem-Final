@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace ContractClaimSystem.Models
 {
+    //This works based on the identity custom class
     public class Lecturer
     {
         public int Id { get; set; }
