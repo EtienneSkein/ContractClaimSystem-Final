@@ -5,6 +5,7 @@ using ContractClaimSystem.Models;
 
 public class ApplicationDbContextTests
 {
+    //These tests work to make sure that the app can run before we commit
     [Fact]
     public async Task Can_Add_Claim_To_Database()
     {
