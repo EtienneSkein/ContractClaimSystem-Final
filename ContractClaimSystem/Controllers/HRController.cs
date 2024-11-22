@@ -192,5 +192,46 @@ namespace ContractClaimSystem.Controllers
 
             return View(approvedClaims);
         }
+
+        // GET: HR/EditLecturer/{id}
+        [HttpGet]
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> EditLecturer(string id)
+        {
+            if (string.IsNullOrEmpty(id))
+                return NotFound();
+
+            var lecturer = await _userManager.FindByIdAsync(id);
+            if (lecturer == null)
+                return NotFound();
+
+            return View(lecturer);
+        }
+
+        // POST: HR/EditLecturer/{id}
+        [HttpPost]
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> EditLecturer(string id, ApplicationUser updatedLecturer)
+        {
+            if (id != updatedLecturer.Id)
+                return BadRequest();
+
+            var lecturer = await _userManager.FindByIdAsync(id);
+            if (lecturer == null)
+                return NotFound();
+
+            lecturer.FullName = updatedLecturer.FullName;
+            lecturer.Email = updatedLecturer.Email;
+            lecturer.UserName = updatedLecturer.Email;
+
+            var result = await _userManager.UpdateAsync(lecturer);
+            if (result.Succeeded)
+                return RedirectToAction(nameof(LecturerList));
+
+            foreach (var error in result.Errors)
+                ModelState.AddModelError(string.Empty, error.Description);
+
+            return View(lecturer);
+        }
     }
 }
