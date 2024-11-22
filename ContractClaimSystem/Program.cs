@@ -2,6 +2,7 @@ using ContractClaimSystem.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+//Do not change the routing settings!!!
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
