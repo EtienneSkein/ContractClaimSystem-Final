@@ -369,3 +369,4 @@ C:\Etienne\Old\ContractClaimSystem\ContractClaimSystem\bin\Debug\net8.0\runtimes
 C:\Etienne\Old\ContractClaimSystem\ContractClaimSystem\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
 C:\Etienne\Old\ContractClaimSystem\ContractClaimSystem\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
 C:\Etienne\Old\ContractClaimSystem\ContractClaimSystem\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Etienne\Old\ContractClaimSystem\ContractClaimSystem\obj\Debug\net8.0\ContractClaimSystem.sourcelink.json

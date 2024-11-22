@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UhyPZpyTUvT2Kon//lUgKpe3vsLTL8A4UlrR7H5zxJ8=",
+  "Hash": "5h4sxTVPUINLxAwPF+en8d4T1KQtwg6iL++9tCEFY1w=",
   "Source": "ContractClaimSystem",
   "BasePath": "_content/ContractClaimSystem",
   "Mode": "Default",
@@ -1307,6 +1307,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\chat3.png"
+    },
+    {
+      "Identity": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\wwwroot\\uploads\\Claim_4\\ClaimReport_2 (2).pdf",
+      "SourceId": "ContractClaimSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Etienne\\Old\\ContractClaimSystem\\ContractClaimSystem\\wwwroot\\",
+      "BasePath": "_content/ContractClaimSystem",
+      "RelativePath": "uploads/Claim_4/ClaimReport_2 (2).pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Claim_4\\ClaimReport_2 (2).pdf"
     }
   ]
 }

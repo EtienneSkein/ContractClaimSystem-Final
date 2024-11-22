@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//Currently this class is only being used locally and not in the dbcontext, fix in future
 namespace ContractClaimSystem.Models
 {
     public class Invoice
